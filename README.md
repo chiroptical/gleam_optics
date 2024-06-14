@@ -7,7 +7,8 @@
   - [x] Prism i.e. https://github.com/hablapps/DontFearTheProfunctorOptics/blob/master/Optics.md#prism
   - [x] Affine i.e. https://github.com/hablapps/DontFearTheProfunctorOptics/blob/master/Optics.md#affine
   - [x] Traversal i.e. https://github.com/hablapps/DontFearTheProfunctorOptics/blob/master/Optics.md#traversal
-- Profunctors
+- Profunctors 2/3
+  - https://github.com/hablapps/DontFearTheProfunctorOptics/blob/master/Profunctors.md
 
 [![Package Version](https://img.shields.io/hexpm/v/optics)](https://hex.pm/packages/optics)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/optics/)
