@@ -3,8 +3,8 @@
 ## TODO
 
 - [x] Adapter laws in `test/adapter_test.gleam`
-- [ ] Prism i.e. https://github.com/hablapps/DontFearTheProfunctorOptics/blob/master/Optics.md#prism
-- [ ] Affine i.e. https://github.com/hablapps/DontFearTheProfunctorOptics/blob/master/Optics.md#affine
+- [x] Prism i.e. https://github.com/hablapps/DontFearTheProfunctorOptics/blob/master/Optics.md#prism
+- [x] Affine i.e. https://github.com/hablapps/DontFearTheProfunctorOptics/blob/master/Optics.md#affine
 - [ ] Traversal i.e. https://github.com/hablapps/DontFearTheProfunctorOptics/blob/master/Optics.md#traversal
 
 [![Package Version](https://img.shields.io/hexpm/v/optics)](https://hex.pm/packages/optics)
