@@ -2,7 +2,7 @@
 
 ## TODO
 
-- [ ] Adapter laws in `test/adapter_test.gleam`
+- [x] Adapter laws in `test/adapter_test.gleam`
 - [ ] Prism i.e. https://github.com/hablapps/DontFearTheProfunctorOptics/blob/master/Optics.md#prism
 - [ ] Affine i.e. https://github.com/hablapps/DontFearTheProfunctorOptics/blob/master/Optics.md#affine
 - [ ] Traversal i.e. https://github.com/hablapps/DontFearTheProfunctorOptics/blob/master/Optics.md#traversal

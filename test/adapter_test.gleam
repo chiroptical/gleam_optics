@@ -7,6 +7,20 @@ type Left =
 type Right =
   #(Int, #(String, Bool))
 
+pub fn from_to_test() {
+  let l: Adapter(Left, Left, Right, Right) = shift()
+  let x: Left = #(#(1, "string"), True)
+  l.to(l.from(x))
+  |> should.equal(x)
+}
+
+pub fn to_from_test() {
+  let l: Adapter(Left, Left, Right, Right) = shift()
+  let x: Right = #(1, #("string", True))
+  l.from(l.to(x))
+  |> should.equal(x)
+}
+
 pub fn shift_test() {
   let l: Adapter(Left, Left, Right, Right) = shift()
 
