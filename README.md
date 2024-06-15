@@ -1,5 +1,10 @@
 # optics
 
+## Sources
+
+- https://github.com/hablapps/DontFearTheProfunctorOptics
+- https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/profunctors
+
 ## TODO
 
 - Optics
