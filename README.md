@@ -21,7 +21,7 @@
         first  :: p a b -> p (a, c) (b, c)
         second :: p a b -> p (c, a) (c, b)
     ```
-  - [ ] Define Cocartesian
+  - [x] Define Cocartesian
     ```haskell
     class Profunctor p => Cocartesian p where
       left  :: p a b -> p (Either a c) (Either b c)
@@ -34,7 +34,7 @@
       empty :: p () ()
     ```
   - [x] Implement Cartesian for `Upstar`
-  - [ ] Implement Cocartesian for `Upstar`
+  - [x] Implement Cocartesian for `Upstar`
   - [ ] Implement Monoidal for `Upstar`
   - [ ] Implement Profunctor for `Downstar` (`newtype DownStar f a b = DownStar { runDownStar :: f a -> b }`)
   - [ ] Implement Cartesian for `Downstar`
