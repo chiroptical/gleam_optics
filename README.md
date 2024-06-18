@@ -44,6 +44,10 @@
   - [ ] Implement Cartesian for `Tagged`
   - [ ] Implement Cocartesian for `Tagged`
   - [ ] Implement Monoidal for `Tagged`
+  - [ ] Profunctor laws
+  - [ ] Cartesian laws
+  - [ ] Cocartesian laws
+  - [ ] Monoidal laws
 
 [![Package Version](https://img.shields.io/hexpm/v/optics)](https://hex.pm/packages/optics)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/optics/)
