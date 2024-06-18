@@ -15,7 +15,7 @@
   - [x] Traversal i.e. https://github.com/hablapps/DontFearTheProfunctorOptics/blob/master/Optics.md#traversal
 - Profunctors 2/3
   - https://github.com/hablapps/DontFearTheProfunctorOptics/blob/master/Profunctors.md
-  - [ ] Define Cartesian
+  - [x] Define Cartesian
     ```haskell
     class Profunctor p => Cartesian p where
         first  :: p a b -> p (a, c) (b, c)
@@ -33,7 +33,7 @@
       par   :: p a b -> p c d -> p (a, c) (b, d)
       empty :: p () ()
     ```
-  - [ ] Implement Cartesian for `Upstar`
+  - [x] Implement Cartesian for `Upstar`
   - [ ] Implement Cocartesian for `Upstar`
   - [ ] Implement Monoidal for `Upstar`
   - [ ] Implement Profunctor for `Downstar` (`newtype DownStar f a b = DownStar { runDownStar :: f a -> b }`)
