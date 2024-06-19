@@ -27,7 +27,7 @@
       left  :: p a b -> p (Either a c) (Either b c)
       right :: p a b -> p (Either c a) (Either c b)
     ```
-  - [ ] Define Monoidal
+  - [x] Define Monoidal
     ```haskell
     class Profunctor p => Monoidal p where
       par   :: p a b -> p c d -> p (a, c) (b, d)
@@ -35,7 +35,7 @@
     ```
   - [x] Implement Cartesian for `Upstar`
   - [x] Implement Cocartesian for `Upstar`
-  - [ ] Implement Monoidal for `Upstar`
+  - [x] Implement Monoidal for `Upstar`
   - [ ] Implement Profunctor for `Downstar` (`newtype DownStar f a b = DownStar { runDownStar :: f a -> b }`)
   - [ ] Implement Cartesian for `Downstar`
   - [ ] Implement Cocartesian for `Downstar`
