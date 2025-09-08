@@ -1,5 +1,5 @@
 import gleeunit/should
-import lens.{type Lens, Lens, one}
+import lens.{type Lens, one}
 
 pub fn view_update_test() {
   let l: Lens(#(Int, String), #(Int, String), Int, Int) = one()

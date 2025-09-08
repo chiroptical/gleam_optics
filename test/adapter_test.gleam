@@ -1,4 +1,4 @@
-import adapter.{type Adapter, Adapter, shift}
+import adapter.{type Adapter, shift}
 import gleeunit/should
 
 type Left =

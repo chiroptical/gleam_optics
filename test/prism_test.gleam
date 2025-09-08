@@ -1,6 +1,6 @@
 import gleam/option.{type Option, None, Some}
 import gleeunit/should
-import prism.{type Prism, Prism, the}
+import prism.{type Prism, the}
 
 pub fn match_one_test() {
   let l: Prism(Option(Int), Option(String), Int, String) = the()

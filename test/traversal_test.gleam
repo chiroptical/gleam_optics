@@ -1,5 +1,5 @@
 import gleeunit/should
-import traversal.{type Traversal, Traversal, first_and_second}
+import traversal.{type Traversal, first_and_second}
 
 pub fn contents_one_test() {
   let l: Traversal(#(Int, Int, String), #(Int, Int, String), Int, Int) =

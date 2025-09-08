@@ -1,4 +1,4 @@
-import affine.{type Affine, Affine, option_first}
+import affine.{type Affine, option_first}
 import gleam/option.{type Option, None, Some}
 import gleeunit/should
 

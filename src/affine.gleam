@@ -13,11 +13,11 @@ pub fn option_first() -> Affine(#(Option(a), c), #(Option(b), c), a, b) {
   }
   let set = fn(input: #(b, #(Option(a), c))) {
     #(
-      case { input.1 }.0 {
+      case input.1.0 {
         None -> None
         Some(_) -> Some(input.0)
       },
-      { input.1 }.1,
+      input.1.1,
     )
   }
   Affine(preview, set)

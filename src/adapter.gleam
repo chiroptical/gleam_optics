@@ -8,7 +8,7 @@ pub fn shift() -> Adapter(
   #(a, #(b, c)),
   #(x, #(y, z)),
 ) {
-  let from = fn(x: #(#(a, b), c)) { #({ x.0 }.0, #({ x.0 }.1, { x.1 })) }
-  let to = fn(x: #(x, #(y, z))) { #(#({ x.0 }, { x.1 }.0), { x.1 }.1) }
+  let from = fn(x: #(#(a, b), c)) { #(x.0.0, #(x.0.1, { x.1 })) }
+  let to = fn(x: #(x, #(y, z))) { #(#({ x.0 }, x.1.0), x.1.1) }
   Adapter(from, to)
 }
